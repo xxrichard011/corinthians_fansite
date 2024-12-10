@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Lobster', sans-serif ;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 14px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header h1{
+    margin-right: 520px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div img{
+    height: 58px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.torcida_corinthians {
+    margin-left: 32px;
+    height: 400px;
+}
+
+#contato .container {
+    display: block;
+}
+
+.redes-sociais img {
+    height: 24px;
+}
+
+.redes-sociais li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.redes-sociais li a {
+    text-decoration: none;
+}
+
+.formulario-contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #424242;
+}
+
+input:hover, textarea:hover{
+    outline-color: #8a8a8a;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 16px 0;
+}
